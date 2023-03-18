@@ -1,0 +1,67 @@
+.card {
+  background-color: rgb(36, 36, 146);
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 1.5em;
+  padding: 1em;
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+  margin: 1.5em;
+}
+
+.btnClose {
+  background-color: black;
+  border-radius: 100%;
+  position: relative;
+  margin-top: 5px;
+  left: 45%;
+  color: #369736;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btnClose:hover {
+  background-color: red;
+  box-shadow: 5px 0px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
+.image {
+  border-radius: 1em;
+}
+
+.name {
+  background-color: #369736;
+  width: 100%;
+  color: black;
+  border-radius: 20px;
+  padding: 2px;
+
+  text-align: center;
+
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.species {
+  background-color: #df57b3;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 800;
+  margin-top: 1.5em;
+}
+
+.gender {
+  background-color: #df57b3;
+  padding: 10px;
+  border-radius: 20px;
+  color: black;
+  font-weight: 800;
+}

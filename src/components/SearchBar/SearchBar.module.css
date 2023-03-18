@@ -1,0 +1,17 @@
+.btnSearch {
+  background-color: #df57b3;
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 15px;
+  font-weight: 600;
+  transition: 1s;
+}
+
+.btnSearch:hover {
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.548);
+}
+
+.barra {
+  border-radius: 15px;
+  padding: 5px;
+}
